@@ -71,6 +71,50 @@ body {
 }
 
 
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border: 2px solid var(--primary-color);
+}
+
+.hero-section, .page-section {
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  margin-right: auto;
+  margin-left: 64px;
+}
+
+
+.hero-section h1, .page-section h2 {
+  font-size: 3.5rem;
+  color: black;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+.page-section h2 {
+  font-size: 3rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
 /*
 .footer {
   background-color: var(--primary-color);
@@ -86,23 +130,6 @@ body {
 }
 
 
-.btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: all 0.2s;
-  text-align: center;
-  cursor: pointer;
-}
-
-.btn-primary {
-  background-color: var(--primary-color);
-  color: white;
-  border: 2px solid var(--primary-color);
-}
 
 .btn-primary:hover {
   background-color: #4a7bc7;
@@ -121,21 +148,6 @@ body {
 }
 
 
-.hero-section {
-  text-align: center;
-  padding: 4rem 1rem;
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-  margin-bottom: 3rem;
-}
-
-.hero-section h1 {
-  font-size: 3.5rem;
-  color: var(--primary-color);
-  margin-bottom: 0.5rem;
-  margin-top: 0;
-}
 
 .hero-subtitle {
   font-size: 1.25rem;
@@ -146,11 +158,6 @@ body {
   margin-right: auto;
 }
 
-.hero-buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
 
 .features-grid {
   display: grid;
@@ -167,15 +174,6 @@ body {
   transition: transform 0.2s;
 }
 
-.feature-item:hover {
-  transform: translateY(-5px);
-}
-
-.feature-icon {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  display: block;
-}
 
 
 .projects-container h2 {

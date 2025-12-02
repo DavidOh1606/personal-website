@@ -1,13 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "../components/Navbar.jsx";
 
 export default function Home() {
   return (
     <div className="home-container">
-      
-
-
         <section className="hero-section">
           <h1>Hi, I'm David Oh</h1>
           <p className="hero-subtitle">
@@ -15,17 +12,12 @@ export default function Home() {
           </p>
 
           <div className="hero-buttons">
-            <Link href="/contact" className="btn">Contact</Link>
-            <Link href="/projects" className="btn">Projects</Link>
-            <Link href="/hobbies" className="btn">Hobbies</Link>
+            <Link href="/contact" className="btn btn-primary">Contact</Link>
+            <Link href="/projects" className="btn btn-primary">Projects</Link>
+            <Link href="/hobbies" className="btn btn-primary">Hobbies</Link>
           </div>
 
         </section>
-
-
-
-
-
     </div>
   );
 }
