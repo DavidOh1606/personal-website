@@ -13,7 +13,7 @@ export default function Home() {
 
           <div className="hero-buttons">
             <Link href="/contact" className="btn btn-primary">Contact</Link>
-            <Link href="/projects" className="btn btn-primary">Projects</Link>
+            <Link href="/about-me" className="btn btn-primary">About Me</Link>
             <Link href="/hobbies" className="btn btn-primary">Hobbies</Link>
           </div>
 
